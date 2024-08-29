@@ -78,6 +78,8 @@
                         <span id="clock-icon" class="far fa-calendar mx-2"></span>
                         <span id="header-date">date</span>
                     </div>
+
+                    
                     <div class="curret-hour">
                         <span id="calendar-icon" class="far fa-clock mx-2"></span>
                         <span id="header-hour">hour</span>
@@ -177,7 +179,7 @@
                     </article>
                 </section>
                 <!-- SECTION 2 ************************************************************************************* -->
-                <section id="About-me-section">
+                <section id="About-me-section" class="text-center">
                     <article id="About-me">
                         <h3 class="article-title rounded-5 py-0"> &#60/ About me &#62 </h3>
                         <hr class="decoration-title-line-about-me">
@@ -198,8 +200,8 @@
                         <hr class="decoration-title-line-about-me">
                         <br>
                         <h5 class="intrest-tittle"> I enjoy </h5>
-                        <div class="interest-container ">
-                            <div class="card border-0 rounded-circle text-center card-items" style="width: 8rem;">
+                        <div class="interest-container text-center row ">
+                            <div class="col-xs-1 card border-0 rounded-circle text-center card-items" style="width: 8rem;">
                                 <i class="fa-solid fa-pen-nib"></i>
                                 <div class="card-body-icon ">
                                     <p class="card-text-icon">
@@ -208,7 +210,7 @@
                                 </div>
                             </div>
 
-                            <div class="card border-0 rounded-circle text-center" style="width: 8rem;">
+                            <div class=" col-xs-1 card border-0 rounded-circle text-center" style="width: 8rem;">
                                 <i class="fa-solid fa-palette"></i>
                                 <div class="card-body-icon">
                                     <p class="card-text-icon">
@@ -217,7 +219,7 @@
                                 </div>
                             </div>
 
-                            <div class="card border-0 rounded-circle text-center" style="width: 8rem;">
+                            <div class=" col-xs-1 card border-0 rounded-circle text-center" style="width: 8rem;">
                                 <i class="fa-solid fa-dog"></i>
 
                                 <div class="card-body-icon">
@@ -227,17 +229,15 @@
                                 </div>
                             </div>
 
-                            <div class="card border-0 rounded-circle text-center" style="width: 8rem;">
+                            <div class=" col-xs-1 card border-0 rounded-circle text-center" style="width: 8rem;">
                                 <i class="fa-solid fa-compact-disc"></i>
-
                                 <div class="card-body-icon">
                                     <p class="card-text-icon">
                                         Rock and Clasical!
                                     </p>
                                 </div>
                             </div>
-
-                            <div class="card border-0 rounded-circle text-center" style="width: 8rem;">
+                            <div class=" col-xs-1 card border-0 rounded-circle text-center" style="width: 8rem;">
                                 <i class="fa-solid fa-mug-hot"></i>
                                 <div class="card-body-icon">
                                     <p class="card-text-icon">
@@ -255,10 +255,10 @@
                     <hr class="decoration-title-line-about-me">
                     <h5> Projects </h5>
                     <article>
-                        <div class="my-projects d-flex flex-column justify-content-center p-3">
-                            <div class="d-flex mb-4">
+                        <div class="my-projects p-3">
+                            <div class=" m-0 row justify-content-xs-center">
                                 <!-- Other project -->
-                                <div class=" ard-project m- p-2" style="width: 18rem;">
+                                <div class="col-6 col-md-4 col-xs-2 card-project m-0 p-2" style="width: 12rem;">
                                     <img src="https://picsum.photos/id/237/500/300" src="..." class="card-img-top"
                                         alt="">
                                     <div class="card-body-projet">
@@ -271,7 +271,7 @@
                                 </div>
 
                                 <!-- Other project -->
-                                <div class="card-project m-0 p-2" style="width: 18rem;">
+                                <div class=" col-6 col-md-4 col-xs-21 card-project m-0 p-2" style="width: 12rem;">
                                     <img src="https://picsum.photos/id/453/500/300" src="..." class="card-img-top"
                                         alt="">
                                     <div class="card-body-projet">
@@ -284,7 +284,7 @@
                                 </div>
 
                                 <!-- Other project -->
-                                <div class="card-project m-0 p-2" style="width: 18rem;">
+                                <div class=" col-6 col-md-4 col-xs-2 card-project m-0 p-2" style="width: 12rem;">
                                     <img src="https://picsum.photos/id/654/500/300" src="..." class="card-img-top"
                                         alt="">
                                     <div class="card-body-projet">
@@ -295,21 +295,19 @@
                                             <a href="#" class="btn btn-sm project-btn">Check it out!</a>
                                     </div>
                                 </div>
+                                <footer class="d-flex flex-column rounded-2 p-0">
+                                    <p class="footer-text ">This project is powered by</p>
+                                    <div class="technologies">
+                                        <i class="fa-brands fa-js"></i>
+                                        <i class="fa-brands fa-html5"></i>
+                                        <i class="fa-brands fa-css3-alt"></i>
+                                        <i class="fa-brands fa-bootstrap"></i>
+                                        <i class=""> Animate.css </i>
+                                    </div>
+                                </footer>
                             </div>
-                            <footer class="row d-flex flex-column p-0">
-                                <p class="footer-text ">This project is powered by</p>
-                                <div class="technologies">
-                                    <i class="fa-brands fa-js"></i>
-                                    <i class="fa-brands fa-html5"></i>
-                                    <i class="fa-brands fa-css3-alt"></i>
-                                    <i class="fa-brands fa-bootstrap"></i>
-                                    <i class=""> Animate.css </i>
-                                </div>
-                            </footer>
-
                     </article>
-
-                </section>
+                </section> 
             </main>
         </div>
     </div>
@@ -325,9 +323,9 @@
                         class="rounded-circle fluid" alt="svg about sending me a messaje">
                 </div>
 
-                <div class="form-inside w-50 mb-2">
+                <div id="form" class="form-inside w-50 mb-2">
                     <div class="input-group mb-2">
-                        <input type="text" class="form-control" placeholder="Type your name..." required
+                        <input id="name" type="text" class="form-control" placeholder="Type your name..." required
                             aria-label="Username">
                     </div>
 
@@ -340,12 +338,16 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
                             placeholder="Type your message and lets grab a coffee..."></textarea>
                     </div>
+                    
+                    <input id="submit-button" class="btn w-100 btn-primary" type="submit" value="Submit">
+
+                    
                 </div>
             </div>
 
             <div
                 class="d-grid gap-2 col-6 mx-auto my-auto text-center d-flex flex-column justify-content-center align-items-center">
-                <input id="submit-button" class="btn w-100 btn-primary" type="submit" value="Submit">
+
                 <button id="close-button" onclick="closeModal()" class="btn w-50 " type="button">close</button>
             </div>
         </div>
